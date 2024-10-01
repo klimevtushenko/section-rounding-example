@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>example</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #051114;
+        margin: 0;
+      }
+      p {
+        color: transparent;
+      }
+
+      .section-1 {
+        position: relative;
+        z-index: 2;
+      }
+
+      .section-2 {
+        height: 800px;
+        background: linear-gradient(
+          0deg,
+          rgba(5, 17, 20, 0.2) 19.33%,
+          rgba(14, 40, 34, 0.2) 47.79%,
+          rgba(0, 141, 111, 0.2) 80.38%,
+          rgba(0, 253, 200, 0.2) 100%
+        );
+
+        /* background: linear-gradient(
+          180deg,
+          rgba(5, 17, 20, 0.2) 19.33%,
+          rgba(14, 40, 34, 0.2) 47.79%,
+          rgba(0, 141, 111, 0.2) 80.38%,
+          rgba(0, 253, 200, 0.2) 100%
+        ); */
+      }
+
+      .radial-overlay {
+        position: absolute;
+        top: 0;
+        bottom: -150px;
+        border-radius: 100%;
+        z-index: -1;
+        border: 1px solid rgb(0, 253, 200);
+
+        left: -200px;
+        right: -200px;
+
+        background: radial-gradient(
+          55% 50% at 50% 55%,
+          rgb(5, 17, 20) 80%,
+          rgb(0, 253, 200) 100%
+        );
+      }
+
+      .content-wrapper {
+        background-color: #051114;
+        background-image: url('stars.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .overflow-hidden {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overflow-hidden">
+      <section class="section-1">
+        <div class="radial-overlay"></div>
+        <div class="content-wrapper">
+          <div class="container">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem lor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem lor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem lor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem lor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsumipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem lor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem lor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsumipisicing elit. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem lor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem lor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsumipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem lor sit amet consectetur adipisicing elit.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Lorem lor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Lorem ipsum
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-2"></section>
+    </div>
+  </body>
+</html>
